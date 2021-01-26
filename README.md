@@ -16,6 +16,6 @@ Handled get request to https://jsonplaceholder.typicode.com/posts in two differe
 * Url: http://localhost:4200/
 
 
-## Authors
+## Author
 
 [@Dorian Haxhiaj](https://www.linkedin.com/in/dorian-haxhiaj-185ba710a/)
