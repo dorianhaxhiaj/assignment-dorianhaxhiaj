@@ -2,6 +2,13 @@
 Angular application that render 100 post from jsonplaceholder in square 10x10.
 Handled get request to https://jsonplaceholder.typicode.com/posts in two different way. One using promises and another using Rxjs library.
 
+## Implementation
+
+### Uses jsonplaceholder API
+```
+
+```
+
 ## Getting Started
 
 ### Technology
