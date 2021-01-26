@@ -10,7 +10,7 @@ export class PostService {
   private url = "https://jsonplaceholder.typicode.com/posts";
 
   constructor(private http: HttpClient) {}
-  async getPostsAsync(): Promise<Post[]> {
-    return await this.http.get<Post[]>(this.url).toPromise();
+  getPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(this.url);
   }
 }

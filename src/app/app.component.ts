@@ -14,7 +14,9 @@ export class AppComponent implements OnInit {
 
   constructor(private postService: PostService) {}
 
-  async ngOnInit() {
-    this.loadedPosts = await this.postService.getPostsAsync();
+  ngOnInit() {
+    this.postService
+      .getPosts()
+      .subscribe((response: Post[]) => (this.loadedPosts = response));
   }
 }
